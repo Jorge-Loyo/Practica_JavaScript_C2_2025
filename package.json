@@ -1,0 +1,24 @@
+{
+  "name": "practica_javascript_c2_2025_nuevo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-Loyo/Practica_JavaScript_C2_2025.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-Loyo/Practica_JavaScript_C2_2025/issues"
+  },
+  "homepage": "https://github.com/Jorge-Loyo/Practica_JavaScript_C2_2025#readme",
+  "keywords": [],
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JS</title>
+</head>
+<body>
+    <h1>Que puedo hacer con JavaScript</h1>
+
+    <h2>Eventos</h2>
+    <p id="demo">Este texto lo voy a cambiar con JavaScript</p>
+    <button type="button" onclick="cambiarDemo()
+    ">Clickeame</button>
+
+    <br><br>
+
+    <label for="select" id="label">Cambio de color</label>
+    <select id="select" onchange="cambiarColor()">
+        <option value="red">Rojo</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+        <option value="yellow">Amarillo</option>
+    </select>
+
+    <button id="btn-select"> Color Original</button> 
+    
+
+    <br><br>
+
+    <p> lista para el asado </p>
+    <button id = "btn-Lista" onclick="mostrarLista()"> 
+        mostrarLista </button>
+    <ul id="lista">
+        
+    </ul>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
